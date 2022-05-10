@@ -29,20 +29,21 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form3));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.helicoptero = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.helicoptero)).BeginInit();
             this.SuspendLayout();
             // 
-            // pictureBox1
+            // helicoptero
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(177, 162);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            this.helicoptero.BackColor = System.Drawing.Color.Transparent;
+            this.helicoptero.Image = ((System.Drawing.Image)(resources.GetObject("helicoptero.Image")));
+            this.helicoptero.Location = new System.Drawing.Point(12, 1);
+            this.helicoptero.Name = "helicoptero";
+            this.helicoptero.Size = new System.Drawing.Size(177, 162);
+            this.helicoptero.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.helicoptero.TabIndex = 0;
+            this.helicoptero.TabStop = false;
+            this.helicoptero.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Form3
             // 
@@ -51,17 +52,19 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(855, 502);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.helicoptero);
             this.DoubleBuffered = true;
             this.Name = "Form3";
             this.Text = "Form3";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.Load += new System.EventHandler(this.Form3_Load);
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form3_KeyDown);
+            ((System.ComponentModel.ISupportInitialize)(this.helicoptero)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox helicoptero;
     }
 }

@@ -16,5 +16,23 @@ namespace splash
         {
             InitializeComponent();
         }
+
+        private void Form3_KeyDown(object sender, KeyEventArgs evento)
+        {
+            if (evento.KeyCode == Keys.Up)
+            {
+
+            }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
