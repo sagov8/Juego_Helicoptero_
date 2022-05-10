@@ -13,7 +13,7 @@ namespace splash
 {
     public partial class Form2 : Form
     {
-        SoundPlayer cancion = new SoundPlayer(@"D:\Santiago\SANTIAGO\Desarrollo de Software\V Semestre\herramientas visuales\Juego_Helicoptero\assets\dino-2.0.wav");
+        SoundPlayer cancion = new SoundPlayer(@"C:\Users\Estudiante\Documents\sv8\C#\Juego_Helicoptero\assets\dino-2.0.wav");
 
         int porcentaje = 0;
         public Form2()
