@@ -55,7 +55,6 @@
             this.Controls.Add(this.helicoptero);
             this.DoubleBuffered = true;
             this.Name = "Form3";
-            this.Text = "Form3";
             this.Load += new System.EventHandler(this.Form3_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form3_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.helicoptero)).EndInit();
