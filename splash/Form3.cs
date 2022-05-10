@@ -21,7 +21,8 @@ namespace splash
         {
             if (evento.KeyCode == Keys.Up)
             {
-
+                helicoptero.Top = helicoptero.Top - 2;
+               
             }
         }
 
