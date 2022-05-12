@@ -33,6 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="PresentationCore" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -58,6 +59,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+	  <SubType>Form</SubType>
+    </Compile>
+	<Compile Include="Form4.Designer.cs">
+	  <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form2.resx">
@@ -66,20 +73,23 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+	<EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -96,19 +106,46 @@
     <None Include="Resources\helicoptero.gif" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\edificio1.png" />
+    <None Include="Resources\edificio01.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\edificio2.png" />
+    <None Include="Resources\edificio02.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\edificio3.png" />
+    <None Include="Resources\edificio03.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\edificio4.png" />
+    <None Include="Resources\edificio04.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\edificio5.png" />
+    <None Include="Resources\edificio05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\explosion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helicopter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helip1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\helip2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ss.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

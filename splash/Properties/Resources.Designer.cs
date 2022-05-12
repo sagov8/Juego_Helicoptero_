@@ -61,11 +61,20 @@ namespace splash.Properties {
         }
         
         /// <summary>
+        ///   Busca un recurso adaptado de tipo System.IO.UnmanagedMemoryStream similar a System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream coin {
+            get {
+                return ResourceManager.GetStream("coin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edificio1 {
+        internal static System.Drawing.Bitmap edificio01 {
             get {
-                object obj = ResourceManager.GetObject("edificio1", resourceCulture);
+                object obj = ResourceManager.GetObject("edificio01", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -73,9 +82,9 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edificio2 {
+        internal static System.Drawing.Bitmap edificio02 {
             get {
-                object obj = ResourceManager.GetObject("edificio2", resourceCulture);
+                object obj = ResourceManager.GetObject("edificio02", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +92,9 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edificio3 {
+        internal static System.Drawing.Bitmap edificio03 {
             get {
-                object obj = ResourceManager.GetObject("edificio3", resourceCulture);
+                object obj = ResourceManager.GetObject("edificio03", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +102,9 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edificio4 {
+        internal static System.Drawing.Bitmap edificio04 {
             get {
-                object obj = ResourceManager.GetObject("edificio4", resourceCulture);
+                object obj = ResourceManager.GetObject("edificio04", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,9 +112,9 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap edificio5 {
+        internal static System.Drawing.Bitmap edificio05 {
             get {
-                object obj = ResourceManager.GetObject("edificio5", resourceCulture);
+                object obj = ResourceManager.GetObject("edificio05", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -113,9 +122,9 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap helicoptero {
+        internal static System.Drawing.Bitmap explosion {
             get {
-                object obj = ResourceManager.GetObject("helicoptero", resourceCulture);
+                object obj = ResourceManager.GetObject("explosion", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -123,11 +132,72 @@ namespace splash.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap helicoptero__1_derecha {
+        internal static System.Drawing.Bitmap heart {
             get {
-                object obj = ResourceManager.GetObject("helicoptero (1)derecha", resourceCulture);
+                object obj = ResourceManager.GetObject("heart", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helicopter {
+            get {
+                object obj = ResourceManager.GetObject("helicopter", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helip1 {
+            get {
+                object obj = ResourceManager.GetObject("helip1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helip11 {
+            get {
+                object obj = ResourceManager.GetObject("helip11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap helip2 {
+            get {
+                object obj = ResourceManager.GetObject("helip2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ss {
+            get {
+                object obj = ResourceManager.GetObject("ss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ss2 {
+            get {
+                object obj = ResourceManager.GetObject("ss2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+
     }
 }
